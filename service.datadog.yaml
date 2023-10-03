@@ -1,0 +1,21 @@
+schema-version: v2.1
+dd-service: service-up-config-server
+team: user-platform
+tier: 2
+tags:
+  - "service:service-up-config-server"
+contacts:
+  - type: slack
+    contact: "https://cbs.slack.com/archives/C0157BFN0G0"
+  - type: email
+    contact: DL_Multiplatform_UPBackend@viacom.com
+links:
+  - url: "https://confluence.mtvi.com/display/VCD/AuthSuite+Support+Runbook"
+    type: "runbook"
+    name: "Team runbook"
+  - url: "https://confluence.mtvi.com/display/VCD/AuthSuite+Home"
+    name: "User Platform docs"
+    type: "doc"
+  - url: "https://github.com/viacomcbs/ups-auth-config-service"
+    name: "ups-auth-config-service"
+    type: "repo"
